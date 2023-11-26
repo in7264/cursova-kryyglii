@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesconf.css">
+  <script src="scriptconf.js"></script>
+  <title>Конфігуратор</title>
+</head>
+<body>
+
+    <div id="configurator">
+        <h2>Конфігуратор</h2>
+        <div id="car-model">Модель: </div>
+        <div id="base-price">Базова ціна: $0.00</div>
+      
+        <h3>Двигун/привід</h3>
+        <select id="engineConfig">
+          <!-- Опції для вибору двигуна/приводу будуть додані програмно -->
+        </select>
+      
+        <h3>Екстер'єр</h3>
+        <select id="exteriorConfig">
+          <!-- Опції для вибору екстер'єру будуть додані програмно -->
+        </select>
+      
+        <h3>Екстер'єр - Диски</h3>
+        <select id="wheelsConfig">
+          <!-- Опції для вибору дисків будуть додані програмно -->
+        </select>
+      
+        <h3>Інтер'єр</h3>
+        <select id="interiorConfig">
+          <!-- Опції для вибору інтер'єру будуть додані програмно -->
+        </select>
+      
+        <h3>Інтер'єр - Колір</h3>
+        <select id="interiorColorConfig">
+          <!-- Опції для вибору кольору інтер'єру будуть додані програмно -->
+        </select>
+      
+        <button onclick="calculatePrice()">Розрахувати Ціну</button>
+        <div id="total-price">Загальна ціна: $0.00</div>
+        <label for="phoneNumber">Для покупки чи консультації запишіть ваш номер телефону</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Введіть номер телефону"required><br>
+        <button onclick="sendEmail()">Купити</button>
+      </div>
+      
+
+
+</body>
+</html>

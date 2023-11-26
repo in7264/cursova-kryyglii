@@ -1,0 +1,187 @@
+{
+    "cars": [
+      {
+        "model": "e-tron GT",
+        "basePrice": 80000,
+        "configurations": [
+          {
+            "configurationType": "Двигун/привод",
+            "configurations": [
+              {
+                "name": "Базова конфігурація",
+                "price": 0
+              },
+              {
+                "name": "Покращений двигун",
+                "price": 1000
+              },
+              {
+                "name": "Повний привід quattro",
+                "price": 1500
+              }
+            ]
+          },
+          {
+            "configurationType": "Екстер'єр",
+            "configurations": [
+              {
+                "name": "Стандартний колір",
+                "price": 0
+              },
+              {
+                "name": "Металік",
+                "price": 500
+              },
+              {
+                "name": "Перламутровий",
+                "price": 1000
+              }
+            ]
+          },
+          {
+            "configurationType": "Екстер'єр - Диски",
+            "configurations": [
+              {
+                "name": "Стандартні диски",
+                "price": 0
+              },
+              {
+                "name": "Легкосплавні диски",
+                "price": 800
+              },
+              {
+                "name": "Ковані диски",
+                "price": 1200
+              }
+            ]
+          },
+          {
+            "configurationType": "Інтер'єр",
+            "configurations": [
+              {
+                "name": "Тканинний салон",
+                "price": 0
+              },
+              {
+                "name": "Шкіряний салон",
+                "price": 1500
+              },
+              {
+                "name": "Шкіра з алькантарою",
+                "price": 2000
+              }
+            ]
+          },
+          {
+            "configurationType": "Інтер'єр - Колір",
+            "configurations": [
+              {
+                "name": "Чорний",
+                "price": 0
+              },
+              {
+                "name": "Білий",
+                "price": 500
+              },
+              {
+                "name": "Коричневий",
+                "price": 800
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "Audi A6",
+        "basePrice": 60000,
+        "configurations": [
+          {
+            "configurationType": "Двигун/привод",
+            "configurations": [
+              {
+                "name": "Базова конфігурація",
+                "price": 0
+              },
+              {
+                "name": "Дизельний двигун",
+                "price": 1200
+              },
+              {
+                "name": "Повний привід quattro",
+                "price": 1800
+              }
+            ]
+          },
+          {
+            "configurationType": "Екстер'єр",
+            "configurations": [
+              {
+                "name": "Стандартний колір",
+                "price": 0
+              },
+              {
+                "name": "Металік",
+                "price": 600
+              },
+              {
+                "name": "Перламутровий",
+                "price": 1200
+              }
+            ]
+          },
+          {
+            "configurationType": "Екстер'єр - Диски",
+            "configurations": [
+              {
+                "name": "Стандартні диски",
+                "price": 0
+              },
+              {
+                "name": "Легкосплавні диски",
+                "price": 900
+              },
+              {
+                "name": "Ковані диски",
+                "price": 1500
+              }
+            ]
+          },
+          {
+            "configurationType": "Інтер'єр",
+            "configurations": [
+              {
+                "name": "Тканинний салон",
+                "price": 0
+              },
+              {
+                "name": "Шкіряний салон",
+                "price": 1800
+              },
+              {
+                "name": "Шкіра з алькантарою",
+                "price": 2400
+              }
+            ]
+          },
+          {
+            "configurationType": "Інтер'єр - Колір",
+            "configurations": [
+              {
+                "name": "Чорний",
+                "price": 0
+              },
+              {
+                "name": "Білий",
+                "price": 700
+              },
+              {
+                "name": "Коричневий",
+                "price": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
